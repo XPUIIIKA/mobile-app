@@ -7,6 +7,12 @@ export const gStyles = StyleSheet.create({
 		borderRadius: 15,
 		paddingLeft: 20,
 		paddingRight: 20,
-		
-	}
+	},
+	contentBlock:{
+		marginTop: 25,
+		padding: 20,
+		alignItems: 'center',
+		backgroundColor: '#00B7EB',
+		borderRadius: 15
+	},
 });

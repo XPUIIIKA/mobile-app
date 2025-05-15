@@ -9,13 +9,13 @@ export function Profile() {
         <Text style={styles.bio}>Mobile Developer</Text>
       </View>
 
-      <View style={styles.section}>
+      <View style={gStyles.contentBlock}>
         <Text style={styles.sectionTitle}>Contact Info</Text>
         <Text style={styles.info}>Email: user@example.com</Text>
         <Text style={styles.info}>Phone: +350 441 567 890</Text>
       </View>
 
-      <View style={styles.section}>
+      <View style={gStyles.contentBlock}>
         <Text style={styles.sectionTitle}>Settings</Text>
         <Text style={styles.info}>Notifications: ON</Text>
         <Text style={styles.info}>Theme: Light</Text>
@@ -36,12 +36,6 @@ const styles = StyleSheet.create({
   bio: {
     fontSize: 16,
     marginTop: 4
-  },
-  section: {
-    backgroundColor: '#00B7EB',
-    borderRadius: 8,
-    padding: 16,
-    marginBottom: 16
   },
   sectionTitle: {
     fontSize: 18,

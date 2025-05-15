@@ -1,6 +1,7 @@
 import {TextInput, View, StyleSheet, Button} from "react-native";
 import { Picker } from '@react-native-picker/picker';
 import { useState } from "react";
+import { gStyles } from "../gStyles";
 
 
 export function TopUp(){
@@ -25,7 +26,7 @@ export function TopUp(){
 	}
 
 	return(
-		<View style={styles.topUpBlock}>
+		<View style={gStyles.contentBlock}>
 			<TextInput
 			onChangeText={setPhone}
 			value={phone}
@@ -61,13 +62,6 @@ export function TopUp(){
 }
 
 const styles = StyleSheet.create({
-	topUpBlock:{
-		marginTop: 25,
-		padding: 20,
-		alignItems: 'center',
-		backgroundColor: '#00B7EB',
-		borderRadius: 15
-	},
 	text:{
 		textAlign: 'center'
 	},
